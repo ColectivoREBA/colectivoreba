@@ -200,7 +200,7 @@ nav a.active {
     background: url('assets/IMG_9370.jpg') no-repeat center center/contain;
 } */
 .hero-home {
-  background-image: url('assets/Horizontal\ .jpg');
+  background-image: url('assets/enfoque1.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top center;
@@ -212,7 +212,7 @@ nav a.active {
   background-position: center center;
 }
 .hero3-home{
- background-image: url('assets/enfoque1.jpg');
+ background-image: url('assets/Horizontal\ .jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -402,18 +402,21 @@ nav a.active {
 .newsletter-card a {
   display: inline-block;
   color: #fff;
-  background-color: #E1182D;
+  /*background-color: #E1182D;*/
   padding: 10px 20px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: 500;
-  transition: background 0.3s ease;
+  transition: transition: background 0.3s ease, color 0.3s ease;
 }
 
 .newsletter-card a:hover {
   background-color: #b71224;
+  
 }
-
+.newsletter-card a:hover h3 {
+  color: #fff;
+}
 @media (max-width: 768px) {
   .newsletter {
     padding: 60px 10px;
