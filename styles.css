@@ -1018,7 +1018,7 @@ a, button, input {
 /* Footer siempre negro */
 /* --- FOOTER REBA AJUSTADO --- */
 footer {
-  background-color: #000 !important;
+  background-color: var(--reba-red) !important;
   color: #fff !important;
   text-align: center;
   padding: 30px 16px 20px; /* 🔹 reduce altura superior e inferior */
@@ -1033,7 +1033,7 @@ footer {
 
 /* Centrar la sección de donación (que incluye el logo) */
 footer .donation-section {
-  background: none;
+  background: #E1182D;
   min-height: auto; /* quita altura innecesaria */
   display: flex;
   flex-direction: column;
@@ -1475,4 +1475,9 @@ header {
 
 .footer-links a:hover {
   color: #E1182D; /* tono rojo REBA */
+}
+footer .hero::before,
+footer .donation-section.hero::before {
+    background: none;
+    content: none;
 }
