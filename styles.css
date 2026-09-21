@@ -307,12 +307,14 @@ nav a.active {
     justify-content: space-around;
     gap: 20px;
     flex-wrap: wrap;
-    background-color: var(--reba-red-dark);
+     background: rgba(225,24,45,0.06);
+    padding: 30px;
+    border-radius: 10px;
 }
 
 .card {
   /*  background-color: #666;*/
-    color: white;
+    color: var(--reba-dark);
     padding: 30px;
     width: 30%;
     text-align: center;
@@ -1278,7 +1280,7 @@ footer p {
     
     padding: 30px 16px;
     text-align: center;
-    background: #fff;
+   /* background: #fff;*/
     width: 100%;
     margin-top: 20px;
 }
