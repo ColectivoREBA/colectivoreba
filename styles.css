@@ -202,8 +202,7 @@ nav a.active {
 .hero-home {
   background-image: url('assets/PORTADA.jpg');
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  
+  background-attachment: fixed;  
   background-position: center 50%;
 }
 .hero2-home{
@@ -824,6 +823,35 @@ nav a.active {
 }
 
 /* SECCIÓN MISIÓN Y VISIÓN */
+/* SECCIÓN ABOUT */
+.about {
+    background: #e6e6e6;
+    color: var(--reba-dark);
+    padding: 48px 16px;
+    border-top: 1px solid rgba(0,0,0,0.04);
+}
+
+.about-content {
+    background: inherit;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 28px;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(31,31,31,0.04);
+}
+
+.about-content h2 {
+    font-weight: 800;
+    font-size: 1.8rem;
+    color: var(--reba-red);
+    margin-bottom: 12px;
+}
+
+.about-content p {
+    color: var(--reba-muted);
+    line-height: 1.6;
+    margin: 8px 0;
+}
 .mission, .vision {
     background: transparent !important;
     padding: 40px 16px;
