@@ -206,20 +206,20 @@ nav a.active {
   background-position: center 50%;
 }
 .hero2-home{
- background-image: url('assets/quehacemos2.PNG');
+ background-image: url('assets/proyecto.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
 }
 .hero3-home{
- background-image: url('assets/Horizontal\ .jpg');
+ background-image: url('assets/sumate.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
 }
 
 .hero4-home{
- background-image: url('assets/Original.jpeg');
+ background-image: url('assets/recursos.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
