@@ -242,12 +242,17 @@ nav a.active {
     width: 90%;
     max-width: 900px;
     margin: 0 auto;
+    align-items: center;
+}
+
+.hero .button a{
+    text-decoration: none;
 }
 
 .hero .button {
-    background-color: white;
-    color: black;
-    padding: 12px 20px;
+    background-color: var(--reba-red);
+    color: #fff;
+    padding: 12px 8px;
     border: none;
     cursor: pointer;
     font-weight: bold;
@@ -255,10 +260,14 @@ nav a.active {
     text-transform: uppercase;
     margin-top: 20px;
     transition: background 0.3s ease;
+    width: auto !important;
+    display: inline-block !important;
+    flex: none !important;
+    text-decoration: none !important;
 }
 .hero .button:hover {
-    background-color: #D71920;
-    color: white;
+    background-color: #fff;
+    color: var(--reba-red);
 }
 
 .modal-container{
@@ -1657,3 +1666,121 @@ footer .hero::before {
     background: none;
     
 }
+
+/* SECCIÓN IMPACTO */
+.impact {
+    padding: 40px 16px;
+    background: #fff;
+    text-align: center;
+}
+
+.impact h2 {
+    font-size: 2rem;
+    color: var(--reba-red);
+    margin-bottom: 40px;
+    font-weight: 800;
+}
+
+.impact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.impact-card {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    text-align: left;
+}
+
+.impact-card h3 {
+    color: var(--reba-red);
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.impact-card p {
+    color: var(--reba-dark);
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+/* SECCIÓN SÚMATE */
+.sumate-intro {
+    text-align: center;
+    padding: 40px 16px 20px;
+    background: #fafafa;
+}
+
+.sumate-intro h2 {
+    font-size: 2rem;
+    color: var(--reba-red);
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.sumate-intro p {
+    color: var(--reba-muted);
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.sumate-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 16px;
+}
+
+.sumate-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sumate-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.sumate-card h2 {
+    color: var(--reba-red);
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.sumate-card p {
+    color: var(--reba-dark);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.sumate-card .button {
+    display: inline-block;
+    background: var(--reba-red);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.sumate-card .button:hover {
+    background: #b71224;
+}
+
+/* Botón Conócenos en Sumate de otras formas */
+/* (usa la clase .button estándar del proyecto) */
