@@ -239,3 +239,13 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.target === modal) modal.classList.remove('show');
     });
 });
+
+async function loadMarkdown(url, containerId) {
+  const res = await fetch(url);
+  const md = await res.text();
+  document.getElementById(containerId).innerHTML = marked.parse(md);
+}
+loadMarkdown('content/instrumentalizacion.md', 'article-1');
+loadMarkdown('content/socioconstructivista.md', 'article-2');
+loadMarkdown("content/.md", "article-3");
+
