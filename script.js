@@ -245,7 +245,7 @@ async function loadMarkdown(url, containerId) {
   const md = await res.text();
   document.getElementById(containerId).innerHTML = marked.parse(md);
 }
-loadMarkdown('content/instrumentalizacion.md', 'article-1');
-loadMarkdown('content/socioconstructivista.md', 'article-2');
-loadMarkdown("content/.md", "article-3");
+loadMarkdown('content/instrumentalizacion.md', 'article-3');
+loadMarkdown("content/ABP.md", "article-2");
+loadMarkdown('content/socioconstructivista.md', 'article-1');
 
