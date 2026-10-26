@@ -204,7 +204,8 @@ nav a.active {
 
 }
 .hero3-home{
-       background: url('assets/sumate.webp') no-repeat center top/cover;
+       background: url('assets-webp/sumate_nueva.webp') no-repeat center top/cover;
+       background-attachment: fixed;
 
 }
 .hero-content {

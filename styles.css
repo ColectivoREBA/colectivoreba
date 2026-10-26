@@ -224,7 +224,7 @@ nav a.active {
 }
 
 .hero4-home{
- background-image: url('assets/recursos.jpg');
+ background-image: url('assets-webp/recursos.webp');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -237,7 +237,7 @@ nav a.active {
   background-position: center center;
 }
 .hero6-home{
- background-image: url('assets/IMG_0169.jpg');
+ background-image: url('assets-webp/IMG_0169.webp');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
