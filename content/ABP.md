@@ -1,7 +1,4 @@
----
-description: "El Aprendizaje Basado en Proyectos impulsa la autonomía, creatividad y pensamiento crítico. Conoce sus etapas, beneficios y aplicaciones en educación."
-url: "aprendizaje-basado-proyectos"
----
+
 
 # Aprendizaje Basado en Proyecto (ABP)
 

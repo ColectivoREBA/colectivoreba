@@ -1,10 +1,13 @@
 # La instrumentalización de la infancia: por qué es urgente repensar cómo miramos a las niñas y niños
 
+**Publicado el 25 de noviembre de 2026**
+
 Hablar de infancia implica hablar de derechos, de dignidad y de protección. Sin embargo, en la práctica cotidiana —en los medios, las redes sociales, la política, e incluso en algunos espacios educativos— los niños y las niñas no siempre son tratados como sujetos plenos de derecho, sino como **recursos**, **símbolos** o **herramientas** para los intereses de las/os adultas/os.
 
 A esta práctica la llamamos **instrumentalización de la infancia**, y reconocerla es el primer paso para erradicarla.
 
 ¿Quieres saber a qué nos referimos exactamente? Sigue leyendo.
+
 
 ## ¿Qué significa instrumentalizar a un niña/o?
 

@@ -23,6 +23,11 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+/* Títulos siempre en negrita */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
 /* Variables de color del proyecto */
 :root {
     --reba-red: #E1182D;
@@ -346,6 +351,8 @@ nav a.active {
 
 .card h3 {
     margin: 12px 0;
+     font-size: 1.25rem;
+     font-weight: bold;
     
 }
 /* SECCIÓN NEWSLETTER */
@@ -416,10 +423,32 @@ nav a.active {
     display: flex !important;
     flex-direction: column !important;
     align-items: flex-start !important;
+    margin: 20px auto !important;
 }
-.newsletter-card {
-   background-color: #fff;
-  border-radius: 15px;
+
+.newsletter-section h3 {
+    font-size: 1.8rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 15px;
+}
+
+.newsletter-card2 h2 {
+    font-size: 1.25rem;
+    text-align: left !important;
+    padding: 0 0 0 0;
+   margin-top: 24px;
+    margin-bottom: 5px;
+}
+.newsletter-card2 h3 {
+    font-size: 1rem;
+    text-align: left !important;
+    padding: 0 0 0 0;
+   margin-top: 24px;
+    margin-bottom: 5px;
+
+ /* border-radius: 15px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   padding: 20px;
   text-align: left;
@@ -1395,14 +1424,15 @@ footer p {
 
 .project-info .button {
     background: var(--reba-red);
-     color: #fff; 
+    color: #fff;
     padding: 12px 20px;
     border-radius: 6px;
     text-decoration: none;
     font-weight: 700;
-    position: relative;
-    top: 10px
-;
+    display: inline-block;
+    width: auto;
+    max-width: 100%;
+    text-align: center;
 }
 
 
@@ -1810,3 +1840,53 @@ footer .hero::before {
 
 /* Botón Conócenos en Sumate de otras formas */
 /* (usa la clase .button estándar del proyecto) */
+
+/* Diferenciar contenido del artículo markdown en newsletter-card2 */
+.newsletter-card2 p {
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: var(--reba-dark);
+}
+
+.newsletter-card2 h4,
+.newsletter-card2 h5,
+.newsletter-card2 h6 {
+    color: #000;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.newsletter-card2 ul,
+.newsletter-card2 ol {
+    margin: 16px 0 24px 0;
+    padding-left: 24px;
+    line-height: 1.8;
+}
+
+.newsletter-card2 li {
+    margin-bottom: 10px;
+    color: var(--reba-dark);
+}
+
+.newsletter-card2 blockquote {
+    border-left: 4px solid #000;
+    background: #f9f9f9;
+    padding: 16px 20px;
+    margin: 20px 0;
+    font-style: italic;
+    color: var(--reba-dark);
+}
+
+.newsletter-card2 strong {
+    color: #000;
+}
+
+.newsletter-card2 a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.newsletter-card2 a:hover {
+    color: #333;
+}
