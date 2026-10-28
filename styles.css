@@ -204,27 +204,30 @@ nav a.active {
 /* .hero-home {
     background: url('assets/IMG_9370.jpg') no-repeat center center/contain;
 } */
+.hero-home, .hero2-home, .hero3-home, .hero4-home, .hero5-home {
+    background-size: cover;
+}
 .hero-home {
-  background-image: url('assets/PORTADA.jpg');
+  background-image: url('assets-webp/PORTADA.webp');
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-position: center 50%;
 }
 .hero2-home{
- background-image: url('assets/proyecto.jpg');
+ background-image: url('assets-webp/proyecto.webp');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
 }
 .hero3-home{
- background-image: url('assets/sumate.jpg');
+ background-image: url('assets-webp/sumate_nueva.webp');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center center;
+  background-position: bottom;
 }
 
 .hero4-home{
- background-image: url('assets/recursos.jpg');
+ background-image: url('assets-webp/recursos.webp');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -237,7 +240,7 @@ nav a.active {
   background-position: center center;
 }
 .hero6-home{
- background-image: url('assets/IMG_0169.jpg');
+ background-image: url('assets-webp/IMG_0169.webp');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -337,7 +340,7 @@ nav a.active {
     color: var(--reba-dark);
     padding: 30px;
     width: 30%;
-    text-align: center;
+    text-align: justify;
     border-radius: 10px;
     min-height: 500px;
 }
@@ -375,7 +378,9 @@ nav a.active {
 .newsletter p {
   color: #555;
   max-width: 700px;
- /* margin: auto ;*/
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   margin-bottom: 20px;
   font-size: 1rem;
   line-height: 1.6;
@@ -477,7 +482,8 @@ nav a.active {
  color: #444;
   line-height: 1.5;
   margin-bottom: 15px;
-  text-align: left; /* ✅ esto sí mantiene la alineación a la izquierda */
+  padding: 0 10px;
+  text-align: justify !important;
   display: block;
 }
 
@@ -886,6 +892,7 @@ nav a.active {
 .project .short-desc {
     color: var(--reba-muted);
     font-size: 0.98rem;
+    text-align: justify;
 }
 
 .project .full-desc {
@@ -1197,7 +1204,11 @@ a, button, input {
 }
 
 @media (max-width: 900px) {
-    .approach-content { max-width: 100%; padding: 18px; box-shadow: none; }
+    .hero-home, .hero2-home, .hero3-home, .hero4-home, .hero5-home {
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center center;
+    }
 }
 
 /* Footer siempre negro */
