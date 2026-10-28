@@ -204,8 +204,11 @@ nav a.active {
 /* .hero-home {
     background: url('assets/IMG_9370.jpg') no-repeat center center/contain;
 } */
+.hero-home, .hero2-home, .hero3-home, .hero4-home, .hero5-home {
+    background-size: cover;
+}
 .hero-home {
-  background-image: url('assets/PORTADA.jpg');
+  background-image: url('assets-webp/PORTADA.webp');
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-position: center 50%;
@@ -1201,8 +1204,10 @@ a, button, input {
 }
 
 @media (max-width: 900px) {
-    .product-grid {
-        grid-template-columns: 1fr;
+    .hero-home, .hero2-home, .hero3-home, .hero4-home, .hero5-home {
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center center;
     }
 }
 
